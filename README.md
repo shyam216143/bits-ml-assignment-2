@@ -10,17 +10,17 @@ The objective of this assignment is to implement, evaluate, and deploy multiple 
 - **Target Variable:** Binary classification target (0 or 1).
 
 ## c. GitHub Repository Link
-[Insert your GitHub Repository URL here]
+https://github.com/shyam216143/bits-ml-assignment-2
 
 ## d. Models Used & Evaluation Metrics
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Logistic Regression** | 0.8500 | 0.9120 | 0.8415 | 0.8650 | 0.8531 | 0.7005 |
-| **Decision Tree** | 0.8900 | 0.8902 | 0.8824 | 0.9000 | 0.8911 | 0.7802 |
-| **KNN** | 0.8750 | 0.9310 | 0.8600 | 0.8950 | 0.8771 | 0.7510 |
-| **Naive Bayes** | 0.8350 | 0.8950 | 0.8200 | 0.8550 | 0.8371 | 0.6710 |
-| **Support Vector Machine** | 0.8950 | 0.9450 | 0.8889 | 0.9000 | 0.8944 | 0.7901 |
+| **Logistic Regression** | 0.8250 | 0.9091 | 0.8131 | 0.8529 | 0.8325 | 0.6503 |
+| **Decision Tree** | 0.7500 | 0.7495 | 0.7453 | 0.7745 | 0.7596 | 0.4998 |
+| **KNN** | 0.9500 | 0.9783 | 0.9694 | 0.9314 | 0.9500 | 0.9008 |
+| **Naive Bayes** | 0.7600 | 0.8417 | 0.7647 | 0.7647 | 0.7647 | 0.5198 |
+| **Support Vector Machine** | 0.9650 | 0.9950 | 0.9703 | 0.9608 | 0.9655 | 0.9300 |
 
 ## e. Observations on Model Performance
 
