@@ -11,11 +11,11 @@ from sklearn.metrics import (
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="ML Assignment 2 - Breast Cancer Classifier", layout="wide")
-
+st.set_page_config(page_title="ML Assignment 2 - Binary Classification", layout="wide")
+ 
 # Header & Project Details
 st.title("🚀 M.Tech AIML: Machine Learning Assignment 2")
-st.markdown("### Breast Cancer Prediction & Classification Dashboard")
+st.markdown("### Automated Binary Classification Benchmark Dashboard")
 st.markdown("Comparative Evaluation of 5 Machine Learning Models on Diagnostic Features")
 
 @st.cache_resource
