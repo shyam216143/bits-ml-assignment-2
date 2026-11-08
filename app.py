@@ -11,10 +11,12 @@ from sklearn.metrics import (
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="ML Assignment 2 - Classifier App", layout="wide")
+st.set_page_config(page_title="ML Assignment 2 - Breast Cancer Classifier", layout="wide")
 
+# Header & Project Details
 st.title("🚀 M.Tech AIML: Machine Learning Assignment 2")
-st.markdown("### Interactive Model Deployment & Evaluation Dashboard")
+st.markdown("### Breast Cancer Prediction & Classification Dashboard")
+st.markdown("Comparative Evaluation of 5 Machine Learning Models on Diagnostic Features")
 
 @st.cache_resource
 def load_artifacts():
@@ -59,8 +61,16 @@ else:
         st.warning("Please upload a test CSV file.")
         st.stop()
 
+# Option to view complete dataset
 st.subheader("📊 Test Dataset Preview")
-st.dataframe(test_df.head())
+show_full_dataset = st.checkbox("Show complete dataset (all rows)")
+
+if show_full_dataset:
+    st.dataframe(test_df)
+    st.info(f"Displaying all {len(test_df)} rows.")
+else:
+    st.dataframe(test_df.head())
+    st.caption("Showing first 5 rows. Check the box above to view the complete dataset.")
 
 if 'target' not in test_df.columns:
     st.error("Uploaded CSV must contain the target column!")

@@ -26,9 +26,9 @@ https://github.com/shyam216143/bits-ml-assignment-2
 
 | ML Model Name | Observation about model performance |
 | :--- | :--- |
-| **Logistic Regression** | Performs reliably as a linear baseline, achieving solid accuracy and an MCC score of ~0.70. |
-| **Decision Tree** | Captures non-linear relationships well, yielding high accuracy but slightly prone to overfitting compared to ensemble models. |
-| **KNN** | Performs strongly with high AUC score, sensitive to feature scaling which was correctly handled using StandardScaler. |
-| **Naive Bayes** | Serves as a fast probabilistic baseline, though feature independence assumption slightly limits performance. |
-| **Support Vector Machine** | Achieves the highest overall balance of accuracy, AUC, and F1 score due to optimal hyperplane separation. |
+| **Logistic Regression** | Performs reliably as a linear baseline, achieving solid accuracy (0.8250) and an MCC score of 0.6503. |
+| **Decision Tree** | Captures non-linear relationships well, yielding an accuracy of 0.7500 with a balanced classification report. |
+| **KNN** | Performs strongly with a high AUC score (0.9783) and accuracy (0.9500); it is sensitive to feature scaling, which was correctly handled using StandardScaler. |
+| **Naive Bayes** | Serves as a fast probabilistic baseline (Accuracy: 0.7600), though the conditional feature independence assumption slightly limits overall performance. |
+| **Support Vector Machine** | Achieves the highest overall balance of accuracy (0.9650), AUC (0.9950), and MCC (0.9300) due to optimal hyper-plane margin separation. |
 | **Overall Winner** | **Support Vector Machine (SVM)** achieved the best overall performance with the highest AUC and MCC score on this dataset. |
